@@ -1,0 +1,240 @@
+#result {
+    position: relative;
+    width: 60%;
+    margin-left: 15%;
+    border: 2px solid red;
+    border-radius: 12px;
+    margin-bottom: 2em;
+}
+
+.container {
+    /* border: 2px solid rgb(0, 34, 255); */
+    height: 75vh;
+    padding: 5%;
+}
+
+header {
+    width: 100%;
+    background: #292d63;
+    border-radius: 12px 12px 0px 0px;
+    color: #fff;
+}
+
+.compLogo img {
+    /* width: 80px; */
+    z-index: 6;
+    top: 10px;
+    position: absolute;
+    position: absolute;
+    width: 81%;
+    height: 53px;
+    margin-left: 9%;
+
+}
+
+
+.font {
+    /* border: 2px solid red; */
+    height: 375px;
+    width: 250px;
+    position: relative;
+    border-radius: 12px;
+}
+
+.top {
+    height: 31%;
+    width: 100%;
+    background-color: #292d63;
+    position: relative;
+    z-index: 5;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+
+
+.top img {
+    height: 103px;
+    width: 100px;
+    border: none;
+    outline: none;
+    background-color: #e6ebe0;
+    border-radius: 50%;
+    position: absolute;
+    top: 65px;
+    left: 75px;
+}
+
+
+
+.content {
+    background-color: rgb(239 240 255);
+    width: 100%;
+    height: 281px;    
+    border-radius: 0px 0px 12px 12px;
+    margin-top: -8%;
+}
+
+.nameDesig {
+    text-align: center;
+    padding-top: 30%;
+}
+
+.nameDesig #name {
+    color: #292d63;
+    font-size: larger;
+    font-weight: bold;
+    margin: 0;
+    padding: 2% 0%;
+}
+
+.nameDesig #field {
+    color: #292d63;
+    font-size: large;
+    font-size: medium;
+    margin: 0;
+    padding: 2% 0%;
+}
+
+
+#id {
+    margin: 0;
+    padding: 2% 0%;
+    font-size: small;
+    color: #292d63;
+}
+
+.details {
+    text-align: center;
+    color: #292d63;
+}
+
+.capitalize {
+    font-weight: bold;
+    padding: 2% 0%;
+    /* text-transform: capitalize; */
+}
+
+#num {
+    font-weight: 400;
+}
+
+#email{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: 500;
+}
+
+#blood {
+    font-weight: 400;
+}
+
+#year {
+    font-weight: 400;
+}
+
+.content ul {
+    list-style-type: none;
+    /* padding: 4%; */
+    margin: 0%;
+    padding-top: 0%;
+    padding-left: 2%;
+    font-size: small;
+}
+
+
+/* BACKSIDE CSS */
+
+#backSide {
+    /* border: 2px solid rgb(255, 0, 34); */
+    background-color: #292d63;
+    height: 365px;
+    width: 250px;
+    left: 57%;
+    bottom: 380px;
+    position: relative;
+    border-radius: 12px;
+}
+
+.header_back {
+    height: 30px;
+    position: relative;
+    border-radius: 12px 12px 0px 0px;
+    background-color: #292d63;
+    bottom: 12px;
+    text-align: center;
+}
+
+.header_back p {
+    padding: 5px 0px;
+    color: white;
+    font-size: 14px;
+}
+
+.hr {
+    height: 2px;
+    border: none;
+    outline: none;
+    background-color: white;
+    /* margin-bottom: 13%; */
+    bottom: 25px;
+    position: relative;
+}
+
+.compInfo {
+    position: relative;
+    text-align: center;
+    font-size: medium;
+    bottom: 19px;
+    color: white;
+}
+
+.qr_container {
+    text-align: center;
+    align-items: center;
+    color: white;
+    font-size: medium;
+    position: relative;
+}
+
+.qr_container img {
+    width: 90px;
+}
+
+#bottomHr {
+    bottom: -1px;
+    border: none;
+    outline: none;
+}
+
+.add {
+    margin-top: 19%;
+    padding: 0;
+    text-align: center;
+    color: white;
+    font-size: small;
+    position: relative;
+    padding: 0px 2px;
+    bottom: 31px;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+
+a:visited {
+    text-decoration: none;
+}
+
+
+a:hover {
+    text-decoration: none;
+}
+
+
+a:active {
+    text-decoration: none;
+}

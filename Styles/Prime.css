@@ -1,0 +1,139 @@
+body {
+    font: 20px Helvetica, Arial;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background-color: white;
+}
+
+h3 {
+    color: #575c9d;
+    text-align: center;
+}
+
+.back {
+    /* display: flex; */
+    margin-left: 7%;
+}
+
+
+form,
+.container {
+    width: 40%;
+    float: left;
+}
+
+form {
+    /* border: 2px solid red; */
+    background-color: rgb(239 240 255);
+    border-radius: 3%;
+    padding: 0% 2%;
+    padding-bottom: 3%;
+    margin: 1.5% 0%;
+    margin-right: 2%;
+    display: flex;
+    flex-direction: column;
+}
+
+/* form{
+    width: 40%;
+} */
+
+.container {
+    /* border: 2px solid blue; */
+    margin-top: 3em;
+    color: #000;
+}
+
+input[type="text"] {
+    outline: none;
+    display: table;
+    margin-bottom: 1em;
+    width: 85%;
+    height: 30px;
+    border-radius: 36px;
+    padding: 2% 3%;
+    margin: 3% 0%;
+    font-size: 16px;
+    border: 2px solid #575c9d;
+}
+
+#file {
+    /* opacity: 10;
+    height: fit-content;
+    width: 300.1px; */
+
+    opacity: 0;
+    height: 0.1px;
+    width: 0.1px;
+}
+
+#preview {
+    align-items: center;
+    width: fit-content;
+    height: 27px;
+    background-color: #ffffff;
+    color: #575c9d;
+    border-radius: 20px;
+    border: 2px solid #777dd1;
+    margin: auto;
+    cursor: pointer;
+    font-weight: 600;
+
+}
+
+#preview:hover {
+    box-shadow: 10px 5px 10px #b6b9f5
+}
+
+#uploadDescription {
+    margin-bottom: 2%;
+}
+
+.upload {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    font-size: medium;
+    width: fit-content;
+    padding: 0% 3%;
+    height: 29px;
+    background-color: #ffffff;
+    color: #575c9d;
+    border-radius: 20px;
+    border: 2px solid #777dd1;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.upload:hover {
+    box-shadow: 10px 5px 10px #b6b9f5
+}
+
+#down {
+    display: flex;
+    text-align: center;
+    text-decoration: none;
+    align-items: center;
+    font-size: medium;
+    width: fit-content;
+    /* margin-top: -60%; */
+    padding: 0% 3%;
+    height: 29px;
+    background-color: #ffffff;
+    color: #575c9d;
+    border-radius: 20px;
+    border: 2px solid #777dd1;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+#down:hover {
+    box-shadow: 10px 5px 10px #b6b9f5
+}
+
+form,
+label {
+    color: #575c9d;
+    font-weight: bold
+}
